@@ -1,0 +1,117 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(195, 55, 100, 0.8)),
+    url("https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")
+      no-repeat top;
+  background-size: cover;
+  font-family: Trebuchet MS, sans-serif;
+  box-sizing: border-box;
+}
+
+::selection {
+  color: darkGreen;
+  background-color: #a0ff47;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-item {
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0 60px 0;
+}
+
+#title {
+  font-size: 42px;
+  text-align: center;
+  color: white;
+}
+
+#box {
+  border-bottom: 8px double pink;
+  width: 15%;
+  position: relative;
+  bottom: 10px;
+  margin: 0 auto;
+}
+
+#description {
+  font-size: 14px;
+  color: pink;
+  letter-spacing: 0.25em;
+}
+
+#survey-form {
+  background-color: rgba(260, 260, 260, 0.75);
+  display: block;
+  padding: 50px 100px;
+  max-width: 600px;
+  min-width: auto;
+}
+
+.form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+  display: block;
+  width: 100%;
+}
+
+#name-label,
+#email-label,
+#number-label,
+.dropdown-label,
+.radio-label,
+.checkbox-label,
+p {
+  line-height: 2em;
+  font-size: 20px;
+}
+
+p {
+  margin-bottom: -18px;
+}
+
+.input-textarea,
+.form-control {
+  width: 100%;
+  height: 3rem;
+  padding: 0.375rem 0.75rem;
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 16px;
+  border: 4px double hotpink;
+}
+
+.input-radio {
+  min-width: 1.25rem;
+  min-height: 1.25rem;
+}
+
+.input-checkbox {
+  display: inline-block;
+  min-width: 1.25rem;
+  min-height: 1.25rem;
+}
+
+.submit-button {
+  display: block;
+  color: hotpink;
+  text-transform: uppercase;
+  font-size: 16px;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: none;
+}
+
+.submit-button:hover {
+  color: hotpink;
+  text-transform: lowercase;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: none;
+}
